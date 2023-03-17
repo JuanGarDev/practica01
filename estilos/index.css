@@ -1,0 +1,44 @@
+
+*{
+    font-family: 'Overpass Mono', monospace;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eaeaea;
+}
+
+header{
+    background-color: #2196F3;
+}
+
+.contenedor{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+header .contenedor{
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+}
+
+#boton .contenedor{
+    margin: 20px 1000px 0 50px;
+}
+
+button{
+    padding: 15px 0;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.2em;
+}
+
+button:hover{
+    background-color: #1A237E;
+
+}
